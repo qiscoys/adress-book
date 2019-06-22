@@ -1,0 +1,111 @@
+@import "base.css";<!--导入CSS样式表-->
+html {
+    font-size: 100px; }
+
+body {
+    font-size: 16px; }
+
+@media screen and (min-width: 320px) {
+    html {
+        font-size: 42.66667px; } }
+
+@media screen and (min-width: 360px) {
+    html {
+        font-size: 48px; } }
+
+@media screen and (min-width: 375px) {
+    html {
+        font-size: 50px; } }
+
+@media screen and (min-width: 412px) {
+    html {
+        font-size: 54.93333px; } }
+
+@media screen and (min-width: 414px) {
+    html {
+        font-size: 55.2px; } }
+/*rem*/
+body{
+    background: #efeeee;
+}
+
+header{
+    width: 100%;
+    box-sizing: border-box;
+    height: 1.8rem;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: #e7e8eb;
+}
+.head{
+    width: 100%;
+    height: 1rem;
+    color: #273441;
+    font-size: 0.45rem;
+    text-align: center;
+    line-height: 1rem;
+    background: lightseagreen;
+    border-radius: 0.1rem;
+}
+header > input{
+    display: block;
+    width: 7rem;
+    height: 0.8rem;
+    border: none;
+    border-radius: 2.05rem;
+    outline: none;
+    /*background: #86b0a7;*/
+    text-align: center;
+    line-height: 0.88rem;
+    margin: 0.2rem 0.24rem 0;
+}
+main{
+    padding-top: 2rem;
+}
+section{
+    margin-right: 0.4rem;
+    margin-bottom: 0.1rem;
+    padding-left: 0.24rem;
+}
+h2{
+    font-weight: normal;
+    font-size: 0.3rem;
+    color: #1699b2;
+    height: 1rem;
+    line-height: 1rem;
+    border-bottom: 0.005rem solid #efeeee;
+}
+section > div{
+    height: 1rem;
+    border-top: 0.005rem solid #aaa;
+    background: #f9f8f8;
+    padding-left: 0.24rem;
+}
+section > div > a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 1rem;
+    font-size: 0.3rem;
+    color: #333;
+}
+.aside{
+    width: 0.5rem;
+    height: auto;
+    position: fixed;
+    top: 50%;
+    right: 0rem;
+    transform: translateY(-50%);
+}
+.aside > li{
+    width: 100%;
+    height: 0.5rem;
+    color: #333;
+    text-align: center;
+    line-height: 0.5rem;
+    font-size: 0.25rem;
+    font-weight: normal;
+    /*margin-top: 0.5rem;*/
+}
